@@ -1,6 +1,5 @@
-#Uses grathwiz so make usre you get the require dependencies
-#For Windows: https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.msi (make sure you add to PATH)
-#For Mac: brew install graphviz
+#README.md must be read
+#B0kCh01
 
 from sklearn import tree
 import pydotplus
