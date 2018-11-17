@@ -16,7 +16,6 @@ brew install graphviz
 ```
 **For Linux:** *Google it sorry
 
-_________
 ## Python Dependencies
 
 Installing `pydotplus`:
