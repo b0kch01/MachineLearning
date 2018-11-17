@@ -33,7 +33,7 @@ Installing `scikit learn`:
 ```
 pip install scikit-learn
 ```
-## Decision Tree
+## Decision Tree Output File
 <p align="center">
   <img src="tree.png" width="500" />
   </p>
