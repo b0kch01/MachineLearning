@@ -3,7 +3,7 @@ This script basically predicts if a car is a sport car or a mini-van based on th
 It also gives you the option to create a visualization of the decision-tree/classifier
 
 <p float="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png" width="200" /> 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png" width="180" /> 
   <img src="https://virtueanalytics.com/wp-content/uploads/2015/07/GraphvizLogo.png" alt="Size Limit example" width="200" />
 </p>
 
