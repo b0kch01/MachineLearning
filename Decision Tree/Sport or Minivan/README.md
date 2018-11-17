@@ -33,3 +33,7 @@ Installing `scikit learn`:
 ```
 pip install scikit-learn
 ```
+##Tree
+<p>
+  <img src="tree.png" width="200" />
+  </p>
