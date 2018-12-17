@@ -4,7 +4,7 @@ It also gives you the option to create a visualization of the decision-tree/clas
 
 <p float="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png" width="180" /> 
-  <img src="https://virtueanalytics.com/wp-content/uploads/2015/07/GraphvizLogo.png" alt="Size Limit example" width="200" />
+  <img src="https://scikit-learn.org/stable/_images/scikit-learn-logo-notext.png" width="200" />
 </p>
 
 ## Getting Graphviz
