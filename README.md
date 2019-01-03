@@ -1,13 +1,15 @@
 # Machine-Learning
-I just do a bunch of super easy Machine Learning Scripts. 
-Mostly decision trees for now.
+I just do a bunch of super easy Machine Learning Programs. 
+I started with Decision Trees but now exploring the nuerel nets
+
 ## Goal?
-I code in Python mainly for these projects and I hope to do something more complicated when I am better at math.
+I code in Python mainly for these projects and I hope to solve every single problem in the world with machine learning.
 
 ## Compatability
-I do this on my hackintosh. I don't have windows installed currently so I cannot test my scripts' compatibility with that operating system. Most the of the scripts should be very very easy to understand and can be slighty changed to have support for Windows.
+I do this on my hackintosh with a virtual enviroment.
+I believe that my programs can run on similar setups.
 
-Python 3 is used. Don't use python 2.
+Python 3.6.5 is used becuase I find this version the most stable in this sort of stuff.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
