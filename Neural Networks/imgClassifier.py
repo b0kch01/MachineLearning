@@ -1,3 +1,9 @@
+#My experience with the TensorFlow tutorial on "basic" classification. (i found this rly hard)
+#Website: https://www.tensorflow.org/tutorials/keras/basic_classification
+#Github: https://github.com/tensorflow/docs/blob/master/site/en/tutorials/keras/basic_classification.ipynb
+#I realized I spelled a bunch of words wrong
+
+
 #Importing Libraries
 import tensorflow as tf
 from tensorflow import keras
