@@ -1,9 +1,3 @@
-#My experience with the TensorFlow tutorial on "basic" classification. (i found this rly hard)
-#Website: https://www.tensorflow.org/tutorials/keras/basic_classification
-#Github: https://github.com/tensorflow/docs/blob/master/site/en/tutorials/keras/basic_classification.ipynb
-#I realized I spelled a bunch of words wrong
-
-
 #Importing Libraries
 import tensorflow as tf
 from tensorflow import keras
@@ -135,5 +129,6 @@ predictions = nuerelNetModel.predict(test_images)
 print(predictions[labrat], "\n")
 #we need the highest value becuase it's most likeley to be that
 typeOfClothing = (np.argmax(predictions[labrat]))
-#we got 2 which means its a Hoodie
+#converts the integer into Enlish
 print("The Nuerel Net says its a form of " + classNames[typeOfClothing] + ".")
+print("It's a " + classNames[test_labels[labrat]])
