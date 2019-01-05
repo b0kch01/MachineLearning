@@ -7,7 +7,6 @@
 #Importing Libraries
 import tensorflow as tf
 from tensorflow import keras
-import numpy as numpy
 import numpy as np
 import matplotlib
 #fixes a bug
