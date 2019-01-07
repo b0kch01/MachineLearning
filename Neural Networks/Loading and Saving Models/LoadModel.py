@@ -1,5 +1,4 @@
 from tensorflow import keras
-import numpy as numpy
 import numpy as np
 import matplotlib
 #fixes a bug
@@ -43,8 +42,6 @@ print("Would you like to see the visuals?")
 answer = input("y/n: ")
 if (answer == "y"):
 	plt.show()
-else: 
-	if
 
 #convert pixels color to values between 1-0 (orginial 0-225)
 test_images = test_images / 255.00
