@@ -6,8 +6,6 @@ matplotlib.use('TkAgg')
 from time import sleep
 import matplotlib.pyplot as plt
 from keras.models import load_model
-from keras.utils import CustomObjectScope
-from keras.initializers import glorot_uniform
 
 
 fashionDataSet = keras.datasets.fashion_mnist
@@ -46,8 +44,8 @@ if (answer == "y"):
 #convert pixels color to values between 1-0 (orginial 0-225)
 test_images = test_images / 255.00
 
-with CustomObjectScope({'GlorotUniform': glorot_uniform()}):
-        nuerelNetModel = load_model('my_model.h5')
+#Loading model and storing it in a variable
+nuerelNetModel = load_model('my_model.h5')
 
 testLoss, testAccuracy = nuerelNetModel.evaluate(test_images, test_labels)
 print("Accuracy during testing: ", testAccuracy)
