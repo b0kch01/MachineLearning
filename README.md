@@ -12,15 +12,16 @@ I believe that my programs can run on similar setups.
 Python 3.6.5 is used becuase I find this version the most stable in this sort of stuff.
 
 ## To-Do
-1. ~~Understand basics of ML~~
-2. ~~Write my first ML model~~
-3. Write a Neural Network
-  a. ~~ANN~~
-  b. CNN
-  c. RNN
-4. Explore some crzy Deep Learning Algrithms
-  a. GAN
-5. Write a Neural Network from scratch with numpy only
+- [x] ~~*Understand basics of ML*~~
+- [x] ~~*Write my first ML model*~~
+- [ ] *Write Neural Networks*
+   * - [ ] ~~ANN~~
+   * - [ ] CNN
+   * - [ ] RNN
+- [ ] *Explore some crazy Deep Learning Algrithms*
+   * - [ ] GAN
+  
+- [ ] *Write a Neural Network from scratch with numpy only*
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
