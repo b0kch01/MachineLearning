@@ -5,8 +5,6 @@ from time import sleep
 from tensorflow import keras
 import numpy as np
 import matplotlib
-# Fixes a bug with matplotlib
-matplotlib.use('TkAgg')
 
 # Getting dataset
 fashionDataSet = keras.datasets.fashion_mnist
@@ -46,14 +44,14 @@ if (answer == "y"):
 # convert pixels color to values between 1-0 (orginial 0-225)
 test_images = test_images / 255.00
 
-# Loading model and saving as "nuerelNetModel"
-nuerelNetModel = load_model('my_model.h5')
+# Loading model and saving as "neural_net_model"
+neural_net_model = load_model('my_model.h5')
 
 # Using the Network (Testing it)
-testLoss, testAccuracy = nuerelNetModel.evaluate(test_images, test_labels)
-print("Accuracy during testing: ", testAccuracy)
-predictions = nuerelNetModel.predict(test_images)
-print(predictions[labrat], "\n")
+testLoss, testAccuracy = neural_net_model.evaluate(
+    test_images, test_labels, verbose=0)
+print("Accuracy during testing:", (str(testAccuracy * 100) + "%"))
+predictions = neural_net_model.predict(test_images)
 typeOfClothing = (np.argmax(predictions[labrat]))
-print("The Neurel Net says its a form of " + classNames[typeOfClothing] + ".")
+print("The Neural Net says its a type of " + classNames[typeOfClothing] + ".")
 print("It's a " + classNames[test_labels[labrat]])
