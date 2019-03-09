@@ -16,7 +16,7 @@ Python 3.6.5 is used becuase I find this version the most stable in this sort of
 - [x] ~~*Write my first ML model*~~
 - [ ] *Write Neural Networks*
    * - [ ] ~~ANN~~
-   * - [ ] CNN (Not as muchn as I wanted to)
+   * - [ ] CNN (Not as much as I wanted to)
    * - [ ] RNN
 - [ ] *Explore some crazy Deep Learning Algrithms*
    * - [ ] GAN
