@@ -25,8 +25,8 @@ model.fit(x=x, y=y, epochs=100, verbose=0)
 ```
 Of course, that was a bit of an exagerated explanation, but you get the idea. The code is beginner friendly, and it also helps me!
 
-I explain for you = **win**
-
+You can possibly understand the code better = **win** <br>
 Teaching helps me understand concepts better = **win**
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
