@@ -21,6 +21,7 @@ Python 3 is used becuase I find this version the most popular among this field.
 - [ ] *Explore some crazy Deep Learning Algrithms*
    * - [ ] GAN
    * - [ ] NLP
+   * - [ ] Transfer Learning
   
 - [ ] *Write a Neural Network from scratch with numpy only*
 
