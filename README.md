@@ -11,19 +11,5 @@ I believe that my programs can run on all computers supporting the latest versio
 
 Python 3 is used becuase I find this version the most popular among this field.
 
-## To-Do
-- [x] ~~*Understand basics of ML*~~
-- [x] ~~*Write my first ML model*~~
-- [ ] *Write Neural Networks*
-   * - [ ] ~~ANN~~
-   * - [ ] CNN (Not as much as I wanted to)
-   * - [ ] RNN
-- [ ] *Explore some crazy Deep Learning Algrithms*
-   * - [ ] GAN
-   * - [ ] NLP
-   * - [ ] Transfer Learning
-  
-- [ ] *Write a Neural Network from scratch with numpy only*
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
