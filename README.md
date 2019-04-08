@@ -11,5 +11,21 @@ I believe that my programs can run on all computers supporting the latest versio
 
 Python 3 is used becuase I find this version the most popular among this field.
 
+## Sample
+I usually comment on my code with some commentary and explanations so that more people can understand the "harder" concepts.
+If you catch a mistake, please tell me by posting an issue - I'll fix it ASAP.
+Here is an sample of what you'll see in my code:
+
+``
+# The fit method helps our model learn. x and y represent the training set inputs and outputs, respectively.
+# AN epoch is one whole iteration of feeding the whole dataset into the model.
+# This includes updating the weights and biases too.
+# VERBOSE is an optinal parameter that controls how much info we get. 0 means we get not training log output in console.
+model.fit(x=x, y=y, epochs=100, verbose=0)
+``
+Of course, that was a bit of an exagerated explanation, but you get the idea. The code is beginner friendly, and it also helps me!
+
+I explain for you = **win**
+Teaching helps me understand concepts better = **win**
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
