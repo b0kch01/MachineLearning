@@ -19,7 +19,7 @@ Here is an sample of what you'll see in my code:
 ```
 # The fit method helps our model learn. x and y represent the training set inputs and outputs, respectively.
 # An epoch is one whole iteration of feeding the whole dataset into the model. (Round trip)
-# VERBOSE is an optinal parameter that controls how much info we get. 0 means no output in console whiel training
+# VERBOSE is an optinal parameter that controls how much info we get. 0 means no output in console while training
 model.fit(x=x, y=y, epochs=100, verbose=0)
 ```
 Of course, that was a bit of an exagerated explanation, but you get the idea. The code is beginner friendly, and it also helps me!
