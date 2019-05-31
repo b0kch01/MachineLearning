@@ -1,5 +1,5 @@
 # Machine Learning
-I just do a bunch of Machine Learning programs. 
+I just do a bunch of Machine Learning projects. 
 Currently, I am exploring Deep Learning and Neural Networks
 
 ## Goal?
