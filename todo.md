@@ -3,8 +3,8 @@
 - [x] ~~*Understand basics of ML*~~
 - [x] ~~*Write my first ML model*~~
 - [ ] *Write Neural Networks*
-   * - [ ] ~~ANN~~
-   * - [ ] CNN (Not as much as I wanted to)
+   * - [x] ~~ANN~~
+   * - [ ] CNN (Need more)
    * - [ ] RNN
 - [ ] *Explore some crazy Deep Learning Algrithms*
    * - [ ] GAN
