@@ -1,3 +1,4 @@
+# Nathan Choi
 # 5/7/2019 - this a an annotation on the kaggle Heart disease dataset
 # https://www.kaggle.com/ronitf/heart-disease-uci
 
@@ -26,26 +27,26 @@ X_test = sc.transform(X_test)
 # Printing the amount of testing and training values
 print("Sizes:\nTrain: {}\nTest: {}".format(len(y_train), len(y_test)))
 
-# Function to create the model (using a function isn't neccessary but can look cleaner)
-def createModel():
-	act = "relu"
+# Function to design the model (using a function isn't neccessary but can look cleaner)
+def create_model():
 	# You know the usual
 	nn = models.Sequential()
-	nn.add(layers.Dense(200, activation=act))
+	nn.add(layers.Dense(200, activation="relu"))
 	nn.add(layers.Dropout(0.2)) # This is to prevent overfitting
-	nn.add(layers.Dense(75, activation=act))
+	nn.add(layers.Dense(75, activation="relu"))
 	nn.add(layers.Dropout(0.2)) # So is this one
-	nn.add(layers.Dense(1, activation="sigmoid")) # Sigmoid becuase the model returns a number 0-1
+	nn.add(layers.Dense(1, activation="sigmoid")) # Sigmoid becuase the activation returns a number 0-1
 	return nn
 
+model = create_model() # By running the createModel function, we can reference the model object as "model"\\
 
-model = createModel() # Actually creating the model and representing it as "model"
+# Customizing the lost/cost function
 model.compile(
 	optimizer="adam", # Adam is just good
 	loss="binary_crossentropy", # binary because its only 1 and 0
 	metrics=["accuracy"] # accuracy works
 	)
 
-# The model trains relitively fast so I made it be quiet
+# The model trains relitively fast so I made it quiet
 model.fit(X_train, y_train, epochs=120, verbose=0) # Training the model. 120 is a good number of epochs
-model.evaluate(X_test, y_test, verbose=0) # Testing it to get a more accurate accuracy
+model.evaluate(X_test, y_test, verbose=0) # Testing it to test how it does in the real world
