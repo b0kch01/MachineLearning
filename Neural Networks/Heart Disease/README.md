@@ -1,5 +1,5 @@
 # Heart Disease UCI
-![alt text](doc/dataset-cover.jpg "Heart Disease UCI")
+![alt text](images/dataset-cover.jpg "Heart Disease UCI")
 ## About
 Just browsing Kaggle to find some datasets to explore.
 
