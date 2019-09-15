@@ -1,6 +1,8 @@
 # Neural Network
 I do classification problems with this type of model
 
+![alt text](https://cdn.redshift.autodesk.com/2016/05/Machine-Learning-hero.jpg "A Machine Learning")
+
 ## Compatibilty
 I try to make all of these programs compatible with all operating systems that support python, tensorflow, and keras.
 
