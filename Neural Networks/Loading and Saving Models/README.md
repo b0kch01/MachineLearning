@@ -1,6 +1,10 @@
 # Loading and Saving Models
-Saving the trained model into a file can help save alot of time
+## About
+Saving the trained model into a file can help save a lot of time
 For example, your program might need a few hours to train. However, you can train the model once, and run tests on it multiple times without another long training session.
+
+Dataset: https://github.com/zalandoresearch/fashion-mnist
+
 
 # How to use?
 ## Using Pre-Trained Model
