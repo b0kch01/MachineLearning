@@ -1,4 +1,6 @@
 # Machine Learning
+![alt text](https://cdn.redshift.autodesk.com/2016/05/Machine-Learning-hero.jpg "A Machine Learning")
+
 I just do a bunch of Machine Learning projects. 
 Currently, I am exploring Deep Learning and Neural Networks
 
