@@ -7,9 +7,9 @@
    
    ~ Mark Cuban
   ```
+<img src="https://media.giphy.com/media/J6ChY8sAIgiAQ0GdRu/giphy.gif" width=150>
 
 # Machine Learning
-<img src="https://news.crunchbase.com/wp-content/uploads/2017/09/neurotech.gif" width=300>
 </div>
 
 I just do a bunch of cool Machine Learning projects. 
