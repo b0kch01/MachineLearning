@@ -6,11 +6,13 @@
   ~ Every program, ever
   ```
   
-  <img src="https://cdn.redshift.autodesk.com/2016/05/Machine-Learning-hero.jpg" width=200>
+  <img src="https://cdn.redshift.autodesk.com/2016/05/Machine-Learning-hero.jpg" width=300>
+  
+  # Neural Network
+  I do classification problems with this type of model
 </div>
 
-# Neural Network
-I do classification problems with this type of model
+
 
 ## Compatibilty
 I try to make all of these programs compatible with all operating systems that support python, tensorflow, and keras.
@@ -19,17 +21,16 @@ I try to make all of these programs compatible with all operating systems that s
 You can visit tensorflows wesite here: <a href="https://www.tensorflow.org/install/pip">Tensorflow</a>
 For MacOS, it is **important** to setup a seperate enviroment for python to run on with pyenv or conda. 
 
-Python version 3.6 or 3.5 is recommended for full compatibility with the packages. 
+Python version 3.7 (windows), 3.6 or 3.5 is recommended for full compatibility with the packages. 
 After that, installation is as easy as 
 
 ```
 python -m pip install tensorflow
 ```
-
-and
+or in general:
 
 ```
-python -m pip install scikit-learn
+python -m pip install <package name>
 ```
 
 any other packages needed can be installed in the same way! 
